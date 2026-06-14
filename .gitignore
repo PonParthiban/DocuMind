@@ -1,0 +1,43 @@
+# Virtual Environment
+backend/venv/
+venv/
+.venv/
+env/
+
+# Python caching & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configurations / Environment variables
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Project Upload & Storage Data
+backend/data/
+backend/storage/
+
+# Node dependencies & build output
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+frontend/build/
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
