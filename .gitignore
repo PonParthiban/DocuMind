@@ -41,3 +41,21 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Railway/Vercel
+.vercel/
+
+# Environment
+.env.*
+!.env.example
